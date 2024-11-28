@@ -8,6 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #b5abab;
+    background-image:  url('https://i.pinimg.com/736x/c3/dd/61/c3dd61308e77e8049c15ac31c6f5ebab.jpg');
 }
 
 .background {
@@ -19,7 +20,7 @@ body {
 
 .login-content {
     width: 400px;
-    background-color: #fff;
+    background-color: #bdbabaa1;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
