@@ -1,0 +1,178 @@
+body {
+    background-color: rgb(37, 36, 36);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.productos {
+    margin-bottom: 20px;
+}
+
+.tabla-productos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.tabla-productos th, .tabla-productos td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.tabla-productos th {
+    font-size: 16px;
+    color: #333;
+}
+
+.tabla-productos td {
+    font-size: 14px;
+    color: #666;
+}
+
+
+.tabla-productos .column-img img {
+    max-width: 100px; 
+    height: auto;
+}
+
+.producto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#fr
+{
+  display: inline;
+}
+
+.producto img {
+    width: 10px; 
+    margin-right: 10px;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button.btn-finalizar {
+    background-color: #0aab3a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button.btn-finalizar:hover {
+    background-color: #86b300;
+}
+
+button.btn-cancelar {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.btn-cancelar:hover {
+    background-color: #c0392b;
+}
+
+.barra
+{
+    background-color: rgb(1, 84, 109);
+    padding: 15px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.barra ul
+{
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+}
+
+#nombreTienda
+{
+  color: red;
+}
+
+.barra ul li 
+{
+    float: left;
+    margin-right: 20px;
+}
+
+.barra ul li a 
+{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#busqueda
+{
+ margin-left: 110px;   
+ width: 300px;
+ border: 1px solid black;
+}
+#botonDeBusqueda:hover
+{
+background-color: aliceblue;
+}
+
+#btnInicioSesion
+{
+    margin-left: 0px;
+    background-color: rgb(173, 173, 173);
+}
+#btnInicioSesion:hover
+{
+    background-color: rgb(177, 255, 161);
+}
+
+#carrito
+{
+    height: 10px;
+    width: 20px;
+    margin-left: 150px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #233138;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: auto;
+}
+
+footer p
+{
+    display: inline-block;
+    padding-left: 14%;
+    padding-right: 14%;
+}
